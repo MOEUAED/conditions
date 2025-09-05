@@ -8,11 +8,10 @@ int main() {
 
     if (c >= 65 && c <= 90) {
         printf("%c est une lettre majuscule.\n", c);
-    } else if(c >= 97 && c <= 122) {
-        printf("%c est une lettre miniscule.\n", c);
     } else {
-        printf("%c n'est pas une lettre .\n", c);
+        printf("%c n'est pas une lettre majuscule .\n", c);
     }
     return 0;
 }
+
 
